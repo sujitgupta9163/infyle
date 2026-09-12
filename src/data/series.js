@@ -5,7 +5,7 @@ export const trendingSeries = [
     genre: "Sci-Fi",
     seasons: 4,
     episodes: 34,
-    image: "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8mhLbbZ.jpg",
+    image: "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3NjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
   },
   {
     id: 302,
@@ -13,7 +13,7 @@ export const trendingSeries = [
     genre: "Drama",
     seasons: 5,
     episodes: 62,
-    image: "https://image.tmdb.org/t/p/w500/ggFHVb151v0y4v9n0o1tH6H1f91.jpg",
+    image: "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMTMtMWE0YWUzNDRoNFE4XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpg",
   },
   {
     id: 303,
@@ -21,7 +21,7 @@ export const trendingSeries = [
     genre: "Action",
     seasons: 3,
     episodes: 24,
-    image: "https://image.tmdb.org/t/p/w500/7ns6sUHAK7a76m0Y4wR8H9T1n.jpg",
+    image: "https://m.media-amazon.com/images/M/MV5BOTEyNDJhMDAtY2U5ZS00OTMzLTkwODktMjU3MjFkZWVlMGYyXkEyXkFqcGdeQXVyMjkwOTAyMTE@._V1_FMjpg_UX1000_.jpg",
   },
   {
     id: 304,
@@ -29,7 +29,7 @@ export const trendingSeries = [
     genre: "Thriller",
     seasons: 5,
     episodes: 41,
-    image: "https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTMFQZ9y.jpg",
+    image: "https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_FMjpg_UX1000_.jpg",
   },
   {
     id: 305,
@@ -37,7 +37,7 @@ export const trendingSeries = [
     genre: "Fantasy",
     seasons: 8,
     episodes: 73,
-    image: "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0H.jpg",
+    image: "https://m.media-amazon.com/images/M/MV5BN2IzYzBiM2RoMWEzYg00NDUzLThlM2EtZjFkZmQwODE1ZGNlXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_FMjpg_UX1000_.jpg",
   },
   {
     id: 306,
@@ -45,6 +45,6 @@ export const trendingSeries = [
     genre: "Fantasy",
     seasons: 3,
     episodes: 24,
-    image: "https://image.tmdb.org/t/p/w500/7vjaCdU15CGScNVLptLq0.jpg",
+    image: "https://m.media-amazon.com/images/M/MV5BMDEwOWVlY2EtNTFlZS00Y2UzLThjZjctNDRjMjliMjAyZmJmXkEyXkFqcGdeQXVyNDM4MTg4Mzg@._V1_FMjpg_UX1000_.jpg",
   }
 ];

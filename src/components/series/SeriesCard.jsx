@@ -7,7 +7,8 @@ const SeriesCard = ({ series }) => {
         <img
           src={series.image}
           alt={series.title}
-          className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
+          onError={(e) => { e.target.onerror = null; e.target.src = "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500&auto=format&fit=crop"; }}
+          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
 
         <div className="absolute top-2 left-2 px-2 py-1 bg-black/60 backdrop-blur-md rounded text-[10px] font-bold text-white uppercase tracking-wider">

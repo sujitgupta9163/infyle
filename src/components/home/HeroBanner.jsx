@@ -22,6 +22,7 @@ const HeroBanner = () => {
         key={heroMovie.id}
         src={heroMovie.image}
         alt={heroMovie.title}
+        onError={(e) => { e.target.onerror = null; e.target.src = "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=1200&auto=format&fit=crop"; }}
         className="absolute inset-0 h-full w-full object-cover opacity-90 dark:opacity-80 animate-fade-in"
         style={{ animation: 'fadeIn 0.5s ease-in-out' }}
       />
