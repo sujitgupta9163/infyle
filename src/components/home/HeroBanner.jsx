@@ -17,7 +17,7 @@ const HeroBanner = () => {
   const prevSlide = () => setCurrentIndex((prev) => (prev - 1 + heroMovies.length) % heroMovies.length);
 
   return (
-    <div className="relative mt-6 w-full overflow-hidden rounded-3xl bg-gray-200 dark:bg-slate-900 pt-[45%] sm:pt-[40%] md:pt-[35%] lg:pt-[32%] shadow-xl dark:shadow-2xl shadow-gray-200 dark:shadow-black/50 border border-gray-200 dark:border-white/5 transition-colors duration-500">
+    <div className="relative mt-6 w-full overflow-hidden rounded-3xl bg-gray-200 dark:bg-slate-900 pt-[115%] sm:pt-[80%] md:pt-[45%] lg:pt-[35%] shadow-xl dark:shadow-2xl shadow-gray-200 dark:shadow-black/50 border border-gray-200 dark:border-white/5 transition-colors duration-500">
       <img
         key={heroMovie.id}
         src={heroMovie.image}
@@ -27,36 +27,36 @@ const HeroBanner = () => {
       />
       
       {/* Premium Gradients */}
-      <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 dark:from-[#05060b] dark:via-[#05060b]/90 to-transparent transition-colors duration-500 w-full md:w-3/4" />
-      <div className="absolute inset-0 bg-gradient-to-t from-white via-white/30 dark:from-[#05060b] dark:via-[#05060b]/30 to-transparent transition-colors duration-500" />
+      <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 dark:from-[#05060b]/95 dark:via-[#05060b]/80 to-transparent transition-colors duration-500 w-full md:w-3/4" />
+      <div className="absolute inset-0 bg-gradient-to-t from-white via-white/80 dark:from-[#05060b] dark:via-[#05060b]/80 to-transparent transition-colors duration-500 md:opacity-50" />
 
-      <div className="absolute inset-0 flex flex-col justify-center px-8 md:px-16 w-full md:w-3/4 lg:w-2/3">
+      <div className="absolute inset-0 flex flex-col justify-end pb-14 md:justify-center md:pb-0 px-5 md:px-16 w-full md:w-3/4 lg:w-2/3">
         {heroMovie.trending && (
-          <div className="mb-3 flex items-center gap-2 text-xs md:text-sm font-bold tracking-wider text-red-500/90 drop-shadow-md uppercase">
-            <span className="text-lg animate-pulse">🔥</span> Trending Now
+          <div className="mb-2 flex items-center gap-1.5 text-[10px] md:text-sm font-bold tracking-wider text-red-500/90 drop-shadow-md uppercase">
+            <span className="text-sm md:text-lg animate-pulse">🔥</span> Trending Now
           </div>
         )}
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl drop-shadow-xl transition-colors duration-500 leading-tight">
+        <h1 className="mb-2 md:mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl drop-shadow-xl transition-colors duration-500 leading-tight line-clamp-2 md:line-clamp-none">
           {heroMovie.title}
         </h1>
-        <p className="mb-8 max-w-xl text-sm text-gray-700 dark:text-gray-300 sm:text-base md:text-lg drop-shadow-md leading-relaxed transition-colors duration-500 line-clamp-3">
+        <p className="mb-5 md:mb-8 max-w-xl text-xs text-gray-700 dark:text-gray-300 sm:text-base md:text-lg drop-shadow-md leading-relaxed transition-colors duration-500 line-clamp-2 md:line-clamp-3">
           {heroMovie.description}
         </p>
         
-        <div className="flex flex-wrap gap-3 md:gap-4">
-          <button className="group flex items-center gap-2 md:gap-3 rounded-full bg-gray-900 dark:bg-white px-6 py-2.5 md:px-8 md:py-3.5 text-sm md:text-base font-bold text-white dark:text-black transition-all hover:bg-indigo-600 hover:text-white shadow-lg hover:shadow-indigo-500/30">
-            <span className="text-lg md:text-xl group-hover:scale-110 transition-transform">▶</span> 
+        <div className="flex flex-wrap gap-2 md:gap-4">
+          <button className="group flex items-center gap-1.5 md:gap-3 rounded-full bg-gray-900 dark:bg-white px-4 py-1.5 md:px-8 md:py-3.5 text-xs md:text-base font-bold text-white dark:text-black transition-all hover:bg-indigo-600 hover:text-white shadow-lg hover:shadow-indigo-500/30">
+            <span className="text-sm md:text-xl group-hover:scale-110 transition-transform">▶</span> 
             Play Now
           </button>
-          <button className="flex items-center gap-2 rounded-full border border-gray-300 dark:border-gray-500/50 bg-white/50 dark:bg-gray-900/50 backdrop-blur-md px-6 py-2.5 md:px-8 md:py-3.5 text-sm md:text-base font-bold text-gray-900 dark:text-white transition-all hover:bg-gray-100 dark:hover:bg-gray-800/80 hover:border-gray-400">
-            <span>ⓘ</span> 
+          <button className="flex items-center gap-1.5 rounded-full border border-gray-300 dark:border-gray-500/50 bg-white/50 dark:bg-gray-900/50 backdrop-blur-md px-4 py-1.5 md:px-8 md:py-3.5 text-xs md:text-base font-bold text-gray-900 dark:text-white transition-all hover:bg-gray-100 dark:hover:bg-gray-800/80 hover:border-gray-400">
+            <span className="text-sm md:text-lg">ⓘ</span> 
             More Info
           </button>
         </div>
       </div>
       
       {/* Dots indicator */}
-      <div className="absolute bottom-6 left-1/2 flex -translate-x-1/2 gap-3">
+      <div className="absolute bottom-3 md:bottom-6 left-1/2 flex -translate-x-1/2 gap-2 md:gap-3 z-20">
         {heroMovies.map((_, idx) => (
           <div 
             key={idx}
