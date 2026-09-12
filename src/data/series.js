@@ -5,7 +5,7 @@ export const trendingSeries = [
     genre: "Sci-Fi",
     seasons: 4,
     episodes: 34,
-    image: "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3NjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+    image: "https://images.unsplash.com/photo-1518674619085-aa69bf560e0b?q=80&w=500&auto=format&fit=crop",
   },
   {
     id: 302,
@@ -13,7 +13,7 @@ export const trendingSeries = [
     genre: "Drama",
     seasons: 5,
     episodes: 62,
-    image: "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMTMtMWE0YWUzNDRoNFE4XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpg",
+    image: "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=500&auto=format&fit=crop",
   },
   {
     id: 303,
@@ -21,7 +21,7 @@ export const trendingSeries = [
     genre: "Action",
     seasons: 3,
     episodes: 24,
-    image: "https://m.media-amazon.com/images/M/MV5BOTEyNDJhMDAtY2U5ZS00OTMzLTkwODktMjU3MjFkZWVlMGYyXkEyXkFqcGdeQXVyMjkwOTAyMTE@._V1_FMjpg_UX1000_.jpg",
+    image: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=500&auto=format&fit=crop",
   },
   {
     id: 304,
@@ -29,7 +29,7 @@ export const trendingSeries = [
     genre: "Thriller",
     seasons: 5,
     episodes: 41,
-    image: "https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_FMjpg_UX1000_.jpg",
+    image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=500&auto=format&fit=crop",
   },
   {
     id: 305,
@@ -37,7 +37,7 @@ export const trendingSeries = [
     genre: "Fantasy",
     seasons: 8,
     episodes: 73,
-    image: "https://m.media-amazon.com/images/M/MV5BN2IzYzBiM2RoMWEzYg00NDUzLThlM2EtZjFkZmQwODE1ZGNlXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_FMjpg_UX1000_.jpg",
+    image: "https://images.unsplash.com/photo-1590845947376-2638caa89309?q=80&w=500&auto=format&fit=crop",
   },
   {
     id: 306,
@@ -45,6 +45,6 @@ export const trendingSeries = [
     genre: "Fantasy",
     seasons: 3,
     episodes: 24,
-    image: "https://m.media-amazon.com/images/M/MV5BMDEwOWVlY2EtNTFlZS00Y2UzLThjZjctNDRjMjliMjAyZmJmXkEyXkFqcGdeQXVyNDM4MTg4Mzg@._V1_FMjpg_UX1000_.jpg",
+    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=500&auto=format&fit=crop",
   }
 ];

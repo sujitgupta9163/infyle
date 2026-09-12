@@ -9,7 +9,7 @@ export const useSeries = () => {
 
 export const SeriesProvider = ({ children }) => {
   const [series, setSeries] = useState(() => {
-    const saved = localStorage.getItem("infyle_series_v2");
+    const saved = localStorage.getItem("infyle_series_v4");
     if (saved) {
       return JSON.parse(saved);
     }
@@ -17,7 +17,7 @@ export const SeriesProvider = ({ children }) => {
   });
 
   useEffect(() => {
-    localStorage.setItem("infyle_series_v2", JSON.stringify(series));
+    localStorage.setItem("infyle_series_v4", JSON.stringify(series));
   }, [series]);
 
   const addSeries = (newSeries) => {

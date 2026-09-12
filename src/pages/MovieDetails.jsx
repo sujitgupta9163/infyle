@@ -34,6 +34,7 @@ const MovieDetails = () => {
           <img 
             src={movie.image} 
             alt={movie.title} 
+            onError={(e) => { e.target.onerror = null; e.target.src = "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=600&auto=format&fit=crop"; }}
             className="w-full h-full object-cover opacity-40 blur-sm scale-105"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/60 to-transparent" />
@@ -47,6 +48,7 @@ const MovieDetails = () => {
             <img 
               src={movie.image} 
               alt={movie.title} 
+              onError={(e) => { e.target.onerror = null; e.target.src = "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=1200&auto=format&fit=crop"; }}
               className="w-full h-full object-cover"
             />
           </div>

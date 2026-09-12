@@ -5,7 +5,8 @@ const ContinueWatchingCard = ({ item }) => {
         <img
           src={item.image}
           alt={item.title}
-          className="h-full w-full object-cover transition duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100"
+          onError={(e) => { e.target.onerror = null; e.target.src = "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=800&auto=format&fit=crop"; }}
+          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100"
         />
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
