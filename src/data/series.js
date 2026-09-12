@@ -5,7 +5,7 @@ export const trendingSeries = [
     genre: "Sci-Fi",
     seasons: 4,
     episodes: 34,
-    image: "https://images.unsplash.com/photo-1618519764620-7403abdbdf9e?q=80&w=500&auto=format&fit=crop",
+    image: "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8mhLbbZ.jpg",
   },
   {
     id: 302,
@@ -13,7 +13,7 @@ export const trendingSeries = [
     genre: "Drama",
     seasons: 5,
     episodes: 62,
-    image: "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=500&auto=format&fit=crop",
+    image: "https://image.tmdb.org/t/p/w500/ggFHVb151v0y4v9n0o1tH6H1f91.jpg",
   },
   {
     id: 303,
@@ -21,7 +21,7 @@ export const trendingSeries = [
     genre: "Action",
     seasons: 3,
     episodes: 24,
-    image: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500&auto=format&fit=crop",
+    image: "https://image.tmdb.org/t/p/w500/7ns6sUHAK7a76m0Y4wR8H9T1n.jpg",
   },
   {
     id: 304,
@@ -29,7 +29,7 @@ export const trendingSeries = [
     genre: "Thriller",
     seasons: 5,
     episodes: 41,
-    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=500&auto=format&fit=crop",
+    image: "https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTMFQZ9y.jpg",
   },
   {
     id: 305,
@@ -37,7 +37,7 @@ export const trendingSeries = [
     genre: "Fantasy",
     seasons: 8,
     episodes: 73,
-    image: "https://images.unsplash.com/photo-1590845947376-2638caa89309?q=80&w=500&auto=format&fit=crop",
+    image: "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0H.jpg",
   },
   {
     id: 306,
@@ -45,6 +45,6 @@ export const trendingSeries = [
     genre: "Fantasy",
     seasons: 3,
     episodes: 24,
-    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=500&auto=format&fit=crop",
+    image: "https://image.tmdb.org/t/p/w500/7vjaCdU15CGScNVLptLq0.jpg",
   }
 ];

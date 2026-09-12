@@ -17,7 +17,7 @@ const HeroBanner = () => {
   const prevSlide = () => setCurrentIndex((prev) => (prev - 1 + heroMovies.length) % heroMovies.length);
 
   return (
-    <div className="relative mt-6 w-full overflow-hidden rounded-3xl bg-gray-200 dark:bg-slate-900 pt-[115%] sm:pt-[80%] md:pt-[45%] lg:pt-[35%] shadow-xl dark:shadow-2xl shadow-gray-200 dark:shadow-black/50 border border-gray-200 dark:border-white/5 transition-colors duration-500">
+    <div className="relative mt-6 w-full overflow-hidden rounded-3xl bg-gray-200 dark:bg-slate-900 h-[480px] sm:h-[500px] md:h-[550px] lg:h-[650px] shadow-xl dark:shadow-2xl shadow-gray-200 dark:shadow-black/50 border border-gray-200 dark:border-white/5 transition-colors duration-500">
       <img
         key={heroMovie.id}
         src={heroMovie.image}

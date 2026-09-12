@@ -9,7 +9,7 @@ export const useMovies = () => {
 
 export const MoviesProvider = ({ children }) => {
   const [movies, setMovies] = useState(() => {
-    const saved = localStorage.getItem("infyleott_custom_movies");
+    const saved = localStorage.getItem("infyle_movies_v2");
     if (saved) {
       return JSON.parse(saved);
     }
@@ -17,7 +17,7 @@ export const MoviesProvider = ({ children }) => {
   });
 
   useEffect(() => {
-    localStorage.setItem("infyleott_custom_movies", JSON.stringify(movies));
+    localStorage.setItem("infyle_movies_v2", JSON.stringify(movies));
   }, [movies]);
 
   const addMovie = (movie) => {
