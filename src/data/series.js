@@ -1,0 +1,50 @@
+export const trendingSeries = [
+  {
+    id: 301,
+    title: "Stranger Things",
+    genre: "Sci-Fi",
+    seasons: 4,
+    episodes: 34,
+    image: "https://images.unsplash.com/photo-1618519764620-7403abdbdf9e?q=80&w=500&auto=format&fit=crop",
+  },
+  {
+    id: 302,
+    title: "Breaking Bad",
+    genre: "Drama",
+    seasons: 5,
+    episodes: 62,
+    image: "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=500&auto=format&fit=crop",
+  },
+  {
+    id: 303,
+    title: "The Boys",
+    genre: "Action",
+    seasons: 3,
+    episodes: 24,
+    image: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500&auto=format&fit=crop",
+  },
+  {
+    id: 304,
+    title: "Money Heist",
+    genre: "Thriller",
+    seasons: 5,
+    episodes: 41,
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=500&auto=format&fit=crop",
+  },
+  {
+    id: 305,
+    title: "Game of Thrones",
+    genre: "Fantasy",
+    seasons: 8,
+    episodes: 73,
+    image: "https://images.unsplash.com/photo-1590845947376-2638caa89309?q=80&w=500&auto=format&fit=crop",
+  },
+  {
+    id: 306,
+    title: "The Witcher",
+    genre: "Fantasy",
+    seasons: 3,
+    episodes: 24,
+    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=500&auto=format&fit=crop",
+  }
+];
